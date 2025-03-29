@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px; 
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(52, 52, 52, 0.1);
+
+}
+/* logo*/
+.logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.logo h1{
+    background-color: rgb(190, 8, 245);
+    color: white;
+    font-size: 0.8cap;
+    padding: 6px 12px;
+    border-radius: 100%;
+    
+}
+/* header or navigation*/
+header nav ul{
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-size: 1rem;
+}
+.contact-btn{
+    background-color: rgb(190, 8, 245);
+    color: white;
+    padding: 8px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.contact-btn:hover{
+    background-color: white;
+    color: rgb(190, 8, 245);
+    border: 1px solid rgb(190, 8, 245);
+}
+/* hero section*/
+section{
+    padding: 20px 100px;  
+}
+
+.top-card{
+    display: flex;
+    align-items: self-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+
+}
+.detail-cont{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+}
+
+.detail-cont h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.sub-detail {
+    font-size: 1rem;
+    color: silver;
+    margin-bottom: 20px;
+}
+.detail-cont button{
+background-color: rgb(230, 182, 245);
+color: white;
+padding: 15px 40px;
+font-size: 1.1rem;
+border: none;
+margin-bottom: 20px;
+font-weight: 500;
+border-radius: 15px;
+width: 150px;
+}
+.card-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    height: 175px;
+    
+}
+.exp-details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 43px;
+    gap: 10px;
+    
+}
+.exp-card > div:nth-child(2){
+    color: red;
+    border: 1px solid white;
+}
+.exp-details span{
+    color: silver;
+}
+p {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.exp-card{
+    display: flex;
+    background-color: rgb(247, 229, 247);
+    color: rgb(19, 18, 18);
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.img-container{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(218, 157, 236)
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
